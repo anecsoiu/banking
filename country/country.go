@@ -654,6 +654,16 @@ var (
 				bban.NewAccountNumber(8, bban.Num),
 			),
 		},
+		"US": {
+			Name:       "United States of America",
+			Alpha2Code: "US",
+			Alpha3Code: "USA",
+			Structure: bban.NewStructure(
+				bban.NewBankCode(4, bban.AlphaUpper),
+				bban.NewBranchCode(3, bban.Num),
+				bban.NewAccountNumber(18, bban.Num),
+			),
+		},
 	}
 )
 
